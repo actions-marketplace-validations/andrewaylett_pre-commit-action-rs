@@ -20,4 +20,4 @@ runs:
         if: input.libs != ''
         run: sudo apt install ${{ input.libs }}
 
-      - uses: pre-commit/action@v3.0.0
+      - uses: pre-commit/action@v3.0.1
